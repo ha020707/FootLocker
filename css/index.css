@@ -1,9 +1,26 @@
-.slidebar {
-  height: 700px;
+.top-nav {
+  border-bottom: 1px solid white;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.custom-slide {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-slide p {
+  margin: 10px;
 }
 
 .slidebar img {
   object-fit: cover;
+  height: 700px;
 }
 
 footer a {
@@ -55,6 +72,5 @@ footer .border-light {
 /* Logo text */
 .color-web-text {
   background: linear-gradient(to right, #009c40, #16c16e);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
