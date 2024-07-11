@@ -4,24 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FootLooker</title>
-
         <link rel="stylesheet" href="./css/index.css">
-        <link rel="shortcut icon" href="https://www.sneakerbranding.com/wp-content/uploads/2022/12/logo-in-logo.png"
-            type="image/x-icon">
+        <link rel="shortcut icon" href="https://www.sneakerbranding.com/wp-content/uploads/2022/12/logo-in-logo.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     </head>
     <body>
         <div class="row">
             <div class="col">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark d-flex flex-column">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark d-flex justify-content-end top-nav px-4">
                     <div class="d-flex align-items-end">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link" href="login.html">ĐĂNG NHẬP</a>
                                 </li>
-
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">VỊ TRÍ ĐƠN HÀNG</a>
                                 </li>
@@ -34,16 +31,20 @@
                             </ul>
                         </div>
                     </div>
+                </nav>
 
+                <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark d-flex flex-column p-3">
                     <div class="container-fluid">
                         <img src="./img/Foot_Locker.png" alt="Logo">
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse mx-5">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#">HÀNG MỚI VỀ</a>
                                 </li>
-
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">ĐỘC QUYỀN</a>
+                                </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         NAM
@@ -54,7 +55,6 @@
                                         <li><a class="dropdown-item" href="#">Quần</a></li>
                                     </ul>
                                 </li>
-
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         NỮ
@@ -65,7 +65,6 @@
                                         <li><a class="dropdown-item" href="#">Quần</a></li>
                                     </ul>
                                 </li>
-
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="#">THƯƠNG HIỆU</a>
                                 </li>
@@ -75,11 +74,20 @@
                             </ul>
                             <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                                <button class="btn btn-outline-secondary d-flex align-items-center" type="submit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search me-2" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg>
+                                    Search
+                                </button>
                             </form>
                         </div>
                     </div>
                 </nav>
+
+                <div class="custom-slide">
+                    <p id="text-slide">Đăng ký ngay để được nhận 10%</p>
+                </div>
 
                 <!-- Slidebar -->
                 <div id="carouselExampleIndicators" class="carousel slide">
@@ -88,24 +96,21 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-
                     <div class="carousel-inner slidebar">
                         <div class="carousel-item active">
-                            <img src="/img/slider-1.jpg" class="d-block w-100 h-75h" alt="...">
+                            <img src="/img/slider-1.jpg" class="w-100">
                         </div>
                         <div class="carousel-item">
-                            <img src="/img/slider-2.jpg" class="d-block w-100" alt="...">
+                            <img src="/img/slider-2.jpg" class="w-100">
                         </div>
                         <div class="carousel-item">
-                            <img src="/img/slider-3.jpg" class="d-block w-100" alt="...">
+                            <img src="/img/slider-3.jpg" class="w-100">
                         </div>
                     </div>
-
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -116,6 +121,46 @@
                         <h4>SẢN PHẨM MỚI NHẤT</h4>
                     </div>
                 </div>
+
+                <!-- Inserted New Section -->
+                <div class="container my-5">
+                    <div class="row">
+                        <!-- First Column -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://www.footlocker.com.vn/media/wysiwyg/ECC_4_1.jpg" class="card-img-top" alt="Certified Classics">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Certified Classics</h5>
+                                    <p class="card-text">Have your feet looking great in timeless kicks</p>
+                                    <a href="#" class="btn btn-outline-dark">Shop Certified Classics</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Second Column -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://www.footlocker.com.vn/media/wysiwyg/CERTIFIED_CLASSIC_800x400_1__1.jpg" class="card-img-top" alt="Every Court Counts">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Every Court Counts</h5>
+                                    <p class="card-text">The best selection of basketball kicks and fits</p>
+                                    <a href="#" class="btn btn-outline-dark">Enter Every Court Counts</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Third Column -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://www.footlocker.com.vn/media/wysiwyg/NEWS_BANNER_NIKE_TN1_800x400_1.jpg" class="card-img-top" alt="Stay Tuned">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Stay Tuned</h5>
+                                    <p class="card-text">Stand out in the Foot Locker Exclusive</p>
+                                    <a href="#" class="btn btn-outline-dark">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -126,107 +171,79 @@
                         <div class="col-md-4 pt-5">
                             <h2 class="h2 border-bottom pb-3 border-light text-success">FootLocker</h2>
                             <ul class="list-unstyled text-light footer-link-list">
-                                <li>
-                                    <i class="fas fa-map-marker-alt fa-fw"></i>
-                                    Ha Ba Trung District
-                                </li>
-
-                                <li>
-                                    <i class="fa fa-phone fa-fw"></i>
-                                    <a class="text-decoration-none" href="tel:032-323-3232">032-323-3232</a>
-                                </li>
-
-                                <li>
-                                    <i class="fa fa-envelope fa-fw"></i>
-                                    <a class="text-decoration-none" href="mailto:hanu@gmail.com">footlocker@gmail.com</a>
-                                </li>
+                                <li><i class="fas fa-map-marker-alt fa-fw"></i> 123 Trịnh Văn Bô</li>
+                                <li><i class="fa fa-phone fa-fw"></i> <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a></li>
+                                <li><i class="fa fa-envelope fa-fw"></i> <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a></li>
                             </ul>
                         </div>
-
-                        <!-- Product -->
                         <div class="col-md-4 pt-5">
-                            <h2 class="h3 text-light border-bottom pb-3 border-light foot-title">Products</h2>
+                            <h2 class="h2 border-bottom pb-3 border-light">Sản phẩm</h2>
                             <ul class="list-unstyled text-light footer-link-list">
-                                <li><a class="text-decoration-none" href>Luxury</a></li>
-                                <li><a class="text-decoration-none" href>Trending</a></li>
-                                <li><a class="text-decoration-none" href>Men's Glass</a></li>
-                                <li><a class="text-decoration-none" href>Women's Glass</a></li>
-                                <li><a class="text-decoration-none" href>Sunglasses</a></li>
+                                <li><a class="text-decoration-none" href="#">Luxury</a></li>
+                                <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
+                                <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
+                                <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
+                                <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
+                                <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
+                                <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
                             </ul>
                         </div>
-
-                        <!-- Futher infor -->
                         <div class="col-md-4 pt-5">
-                            <h2 class="h3 text-light border-bottom pb-3 border-light foot-title">Pages</h2>
+                            <h2 class="h2 border-bottom pb-3 border-light">Thông tin</h2>
                             <ul class="list-unstyled text-light footer-link-list">
-                                <li><a class="text-decoration-none" href="/">Home</a></li>
-                                <li><a class="text-decoration-none" href="/shop">Shop</a></li>
-                                <li><a class="text-decoration-none" href="/about-us">About</a></li>
-                                <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                                <li><a class="text-decoration-none" href="/contact-us">Contact</a></li>
+                                <li><a class="text-decoration-none" href="#">Trang chủ</a></li>
+                                <li><a class="text-decoration-none" href="#">Giới thiệu</a></li>
+                                <li><a class="text-decoration-none" href="#">Liên hệ</a></li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- Social contacts -->
                     <div class="row text-light mb-4">
                         <div class="col-12 mb-3">
                             <div class="w-100 my-3 border-top border-light"></div>
                         </div>
-
                         <div class="col-auto me-auto">
                             <ul class="list-inline text-left footer-icons">
                                 <li class="list-inline-item border border-light rounded-circle text-center">
-                                    <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i
-                                            class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                                    <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                                 </li>
-
                                 <li class="list-inline-item border border-light rounded-circle text-center">
-                                    <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i
-                                            class="fab fa-instagram fa-lg fa-fw"></i></a>
+                                    <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
                                 </li>
-
                                 <li class="list-inline-item border border-light rounded-circle text-center">
-                                    <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i
-                                            class="fab fa-twitter fa-lg fa-fw"></i></a>
+                                    <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
                                 </li>
-
                                 <li class="list-inline-item border border-light rounded-circle text-center">
-                                    <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i
-                                            class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                                    <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
                                 </li>
                             </ul>
                         </div>
-
-                        <!-- Email subscriber -->
                         <div class="col-auto">
-                            <div class="container-fluid col-auto">
-                                <form class="d-flex" role="search" method="post" action="/sendEmail">
-                                    <input class="form-control me-2" type="email" name="email" placeholder="Enter your email" required>
-                                    <button class="btn btn-outline-success" type="submit">Subscribe</button>
-                                </form>
-
+                            <label class="sr-only" for="subscribeEmail">Email address</label>
+                            <div class="input-group mb-2">
+                                <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                                <div class="input-group-text btn-success text-light">Subscribe</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-black copy-right py-3 w-100">
+            <div id="copy-right" class="bg-body-tertiary py-3 w-100">
                 <div class="container">
                     <div class="row pt-2">
                         <div class="col-12">
-                            <p class="text-left text-light">
+                            <p class="text-center text-light">
                                 Copyright © 2024 | Designed by Quang Ha
-                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-heart text-danger"></i>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-
-        <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
-"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+        <script src="./js/index.js"></script>
     </body>
 </html>
