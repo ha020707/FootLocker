@@ -1,7 +1,7 @@
 var i = 0;
 var time = 3000;
 var texts = [
-  "Đăng kí ngay để được nhận 10%*",
+  "Đăng kí ngay để được nhận 10%",
   "Miễn phí vận chuyển cho mọi đơn hàng",
   "Giày đẹp giá rẻ",
 ];
