@@ -1,3 +1,9 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Top Navigation */
 .top-nav {
   border-bottom: 1px solid white;
 }
@@ -6,6 +12,43 @@
   color: white !important;
 }
 
+/* New Arrival Section */
+.new-arrival .carousel-item img {
+  max-height: 150px;
+  margin: auto;
+}
+
+.new-arrival .carousel-item {
+  text-align: center;
+}
+
+.new-arrival .carousel-inner .row {
+  display: flex;
+  justify-content: center;
+}
+
+.new-arrival .carousel-inner .col {
+  flex: 1;
+  max-width: 16.66%; /* Ensures six items per row */
+}
+
+.new-arrival h4 {
+  background-color: lightgray;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Product Image */
+.product-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding: 25px;
+}
+
+/* Custom Slide */
 .custom-slide {
   background-color: white;
   color: black;
@@ -18,11 +61,13 @@
   margin: 10px;
 }
 
+/* Slidebar Image */
 .slidebar img {
   object-fit: cover;
   height: 700px;
 }
 
+/* Footer Styles */
 footer a {
   color: #dcdde1;
 }
@@ -69,8 +114,18 @@ footer .border-light {
   margin-bottom: 0;
 }
 
-/* Logo text */
-.color-web-text {
-  background: linear-gradient(to right, #009c40, #16c16e);
-  -webkit-text-fill-color: transparent;
+.cl {
+  color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .product-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .slidebar img {
+    height: auto;
+  }
 }
