@@ -1,0 +1,26 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Top Navigation */
+.top-nav {
+  border-bottom: 1px solid white;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+/* Copyright */
+#copyright .pt-2 {
+  padding-top: 0 !important;
+}
+
+#copyright p {
+  margin-bottom: 0;
+}
+
+.cl {
+  color: white;
+}
